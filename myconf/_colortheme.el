@@ -1,0 +1,11 @@
+(load-file (concat dotfiles-dir "themes/color-theme.el"))
+(load-file (concat dotfiles-dir "solarized-definitions.el"))
+(require 'color-theme)
+(setq set-cursor-color "red")
+(if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
+(if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
+(if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
+(setq color-theme-is-cumulative 'false)
+;;(color-theme-subtle-hacker)
+
+;;(display-battery-mode)

@@ -1,0 +1,1 @@
+./configure --without-dbus --without-gsettings --without-gconf --with-x-toolkit=lucid
